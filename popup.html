@@ -8,12 +8,19 @@
 </head>
 
 <body>
-    <h1>Quick Notes</h1>
-    <textarea id="note" placeholder="Type your note here..."></textarea>
-    <div class="footer">
-        <button id="clearBtn">Clear</button>
-        <span id="status"></span>
+    <div class="container">
+        <h1>Quick Notes</h1>
+
+        <textarea id="note" placeholder="Type your note here..."></textarea>
+
+        <div class="button-row">
+            <button id="copyBtn">Copy</button>
+            <button id="clearBtn" class="secondary">Clear</button>
+        </div>
+
+        <span id="statusMsg"></span>
     </div>
+
     <script src="browser-polyfill.js"></script>
     <script src="popup.js"></script>
 </body>
