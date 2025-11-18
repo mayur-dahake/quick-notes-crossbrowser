@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Quick Notes",
+  "name": "Quick Notes - MDevHub",
   "version": "1.0.0",
   "description": "A lightweight cross-browser extension for taking quick notes directly from your toolbar.",
   "action": {
